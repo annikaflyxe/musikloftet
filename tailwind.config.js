@@ -1,10 +1,9 @@
 module.exports = {
   content: ["./src/**/*.{html,js,ts,jsx,tsx}"],
-  darkMode: 'class',
   theme: {
     extend: {
       fontFamily: {
-        Lato: "'Lato', serif",
+        Montserrat: "'Montserrat', serif",
       },
 
     },
