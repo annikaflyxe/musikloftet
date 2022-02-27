@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Starter Template</title>
+    <link rel="stylesheet" href="tailwind.css" />
+ 
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+    
+  </head>
+  <body class="bg-gradient-to-r from-indigo-200 via-white to-lime-100 dark:bg-none dark:bg-neutral-900">
+
+
+ 
+        <nav class="bg-none border-b border-black  dark:bg-neutral-900 dark:border-white mt-4 ">
+          <div class="container flex flex-wrap justify-between items-center mx-auto">
+          <a href="/src/index.html" class="flex">
+            
+              <span class="text-2xl ml-20 sm:ml-1 mb-4 font-Montserrat tracking-widest  dark:text-white">MUSIKLOFTET</span>
+          </a>
+    
+        
+         
+    
+    
+          <div class="flex md:order-2 mb-4  ">
+            <button
+      id="theme-toggle"
+      type="button"
+      class="text-black dark:text-white dark:hover:bg-neutral-900   text-sm p-2.5"
+    >
+      <svg
+        id="theme-toggle-dark-icon"
+        class="w-5 h-5 hidden"
+        fill="currentColor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"
+        ></path>
+      </svg>
+      <svg
+        id="theme-toggle-light-icon"
+        class="w-5 h-5 hidden"
+        fill="currentColor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+        ></path>
+      </svg>
+    </button>
+    
+    
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  aria-hidden="true" role="img" class="iconify iconify--iconoir pt-3 " width="30" height="30" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="black" class="dark:stroke-white"stroke-linecap="round" stroke-width="1" d="M3 5h18M3 12h18M3 19h18"></path></svg>
+    
+    </div>  
+
+  
+            
+             
+         
+          <div class="hidden  mb-4 justify-between items-center w-full md:flex md:w-auto md:order-1" id="mobile-menu-4">
+            <ul class="flex flex-col  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+          
+              <li>
+                <a href="/src/booking.html" class="block py-2 pr-4 pl-3 font-Montserrat text-black hover:bg-gray-50 md:hover:bg-transparent md:border-0 no-underline md:hover:underline md:p-0 md:dark:hover:text-white dark:text-white dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">BOOKING</a>
+              </li>
+              <li>
+                <a href="#" class="block py-2 pr-4 pl-3 font-Montserrat text-black hover:bg-gray-50 md:hover:bg-transparent md:border-0 no-underline md:hover:underline md:p-0 md:dark:hover:text-white dark:text-white dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">LOKALER</a>
+              </li>
+              <li>
+                <a href="#" class="block py-2 pr-4 pl-3 font-Montserrat text-black hover:bg-gray-50 md:hover:bg-transparent md:border-0 no-underline md:hover:underline md:p-0 md:dark:hover:text-white dark:text-white dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">KONTAKT</a>
+              </li>
+            </ul>
+          </div>
+          </div>
+        </nav>
+
+        
+
+        <div class="flex border-b border-black dark:border-white pb-20">
+
+            <div class="w-1/2">
+
+            <p class="font-Montserrat font-semibold text-black dark:text-white text-6xl ml-36 mt-10 ">LOKALER</p>
+
+            <img class="ml-36 mt-10 w-2/3" src="/assets/map.png" alt="map">
+
+        </div>
+
+        <div class="w-1/2 pr-48">
+
+           <p class="font-Montserrat font-light pt-36 text-black dark:text-white"> <i>Musikloftet har 8 hyggelige øvelokaler på øverste etage af en gammel industribygning på Prøvestenen i København.  </i> </p>
+
+<p class="font-Montserrat pt-5 text-black dark:text-white">Vi tilbyder tre typer lokaler, som alle er baggearslokaler: Ét lille lokale på 10m2, fire mellem lokaler (16-22 m2) og tre store lokaler (33-36m2). Dertil er der fælles toilet på gangen og et lille fælleskøkken med tagterasse, hvor man kan nyde et glas om sommeren. </p>
+
+<p class="font-Montserrat pt-5 text-black dark:text-white">Lokalerne lejes for et tidsrum på tre timer én dag om ugen - nok til en god øver. Alle lokalerne er godt støjdæmpede, og er udstyret med det nødvendige for at spille. Se udstyr og ledige tider i lokalebeskrivelserne nedenfor.</p>
+        </div>
+          </div>
+
+
+
+
+
+          <div class="flex border-b border-black dark:border-white pb-20">
+
+            <div class="w-1/2">
+
+            <p class="font-Montserrat text-black dark:text-white ml-36 mt-20 ">LILLE LOKALER</p>
+
+            <p class="font-Montserrat font-light pt-5 text-black ml-36 dark:text-white"> <i>Det lille lokale er ca. 10m2, og er oplagt for små bands/orkestre, der ikke har en trommeslager.  </i> </p>
+
+<ul class="font-Montserrat pt-5 text-black ml-36 dark:text-white">
+    <li>2 stk. Bronco Deville 2X10 Guitarcombo</li>
+    <li>Snorx AC30C2 Basscombo</li>
+    <li>Korka 4-kanals sanganlæg</li>
+    <li>Mooga 6 oktavers keyboard</li>
+    <li>2 stk Castafiore vokalmikrofoner på stativ</li>
+    <li>6-spors Beckeringer mixer</li>
+    
+
+
+</ul>
+
+<p class="font-Montserrat pt-5 text-black ml-36 dark:text-white">Det lille lokale koster 300/måned for tre timer én dag om ugen, og bindingsperioden for leje af et lokale er løbende måned + 30 dage. Se ledige tider i booking</p>
+
+           
+
+        </div>
+
+        <div class="w-1/2 pr-48">
+
+            <img class="ml-36 mt-20 w-2/3 border border-black dark:border-white" src="/assets/musikloftet-stort-lokale-1.jpg" alt="map">
+            <table class="ml-36 mt-10  text-black dark:text-white border border-black dark:border-white">
+                <tbody>
+                 <tr>
+                   <td class=" py-2 px-4 border border-black dark:border-white cursor-pointer bg-none hover:bg-indigo-200 font-Montserrat">BOOK NU</td>
+                 
+                 </tr>
+                </tbody>
+              </table>
+           
+        </div>
+          </div>
+
+
+
+
+
+
+          
+
+          <div class="flex border-b border-black dark:border-white pb-20">
+
+            
+
+        <div class="w-1/2 ">
+
+            <img class="ml-36 mt-20 w-2/3 border border-black dark:border-white" src="/assets/tom-pottiger-yxzl9lnxSNA-unsplash.jpg" alt="map">
+            <table class="ml-36 mt-10  text-black dark:text-white border border-black dark:border-white">
+                <tbody>
+                 <tr>
+                   <td class=" py-2 px-4 border border-black dark:border-white cursor-pointer bg-none hover:bg-indigo-200 font-Montserrat">BOOK NU</td>
+                 
+                 </tr>
+                </tbody>
+              </table>
+           
+        </div>
+        <div class="w-1/2 pr-48">
+
+            <p class="font-Montserrat text-black dark:text-white ml-36 mt-20 ">MELLEM LOKALER</p>
+
+            <p class="font-Montserrat font-light pt-5 text-black ml-36 dark:text-white"> <i>De fire mellemstore lokaler er mellem 16 og 22m2, og er oplagt for mindre rockbands med trommer - typisk tre-fire bandmedlemmer.   </i>  </p>
+
+<ul class="font-Montserrat pt-5 text-black ml-36 dark:text-white">
+    <li>2 stk. Bronco Deville 2X10 Guitarcombo</li>
+    <li>Snorx AC30C2 Basscombo</li>
+    <li>Korka 4-kanals sanganlæg</li>
+    <li>Mooga 6 oktavers keyboard</li>
+    <li>2 stk Castafiore vokalmikrofoner på stativ</li>
+    <li>6-spors Beckeringer mixer</li>
+    
+
+
+</ul>
+
+<p class="font-Montserrat pt-5 text-black ml-36 dark:text-white">Et mellem lokale koster 500/måned for tre timer én dag om ugen, og bindingsperioden for leje af et lokale er løbende måned + 30 dage. Se ledige tider i booking. 
+</p>
+
+           
+
+        </div>
+          </div>
+
+
+          <div class="flex border-b border-black dark:border-white pb-20">
+
+            <div class="w-1/2">
+
+            <p class="font-Montserrat text-black dark:text-white ml-36 mt-20 ">STORE LOKALER</p>
+
+            <p class="font-Montserrat font-light pt-5 text-black ml-36 dark:text-white"> <i>De tre store lokaler er mellem 33 og 36m2, så her er der plads til det helt store funk-band, og så er der også en lille lounge-afdeling til at tage en chiller.   </i> </p>
+
+<ul class="font-Montserrat pt-5 text-black ml-36 dark:text-white">
+    <li>3 stk. Bronco Deville 2X10 Guitarcombo</li>
+    <li>Snorx AC30C2 Basscombo</li>
+    <li>Korka 12-kanals sanganlæg</li>
+    <li>Mooga 6 oktavers keyboard</li>
+    <li>Pro Drums Indie trommesæt med Zhiltan bækkener</li>
+    <li>18-spors Beckeringer mixer</li>
+    
+
+
+</ul>
+
+<p class="font-Montserrat pt-5 text-black ml-36 dark:text-white">Et stort lokale koster 800/måned for tre timer én dag om ugen, og bindingsperioden for leje af et lokale er løbende måned + 30 dage. Se ledige tider i booking. 
+</p>
+
+           
+
+        </div>
+
+        <div class="w-1/2 pr-48">
+
+            <img class="ml-36 mt-20 w-2/3 border border-black dark:border-white" src="/assets/stort-2.jpg" alt="map">
+            <table class="ml-36 mt-10  text-black dark:text-white border border-black dark:border-white">
+                <tbody>
+                 <tr>
+                   <td class=" py-2 px-4 border border-black dark:border-white cursor-pointer bg-none hover:bg-indigo-200 font-Montserrat">BOOK NU</td>
+                 
+                 </tr>
+                </tbody>
+              </table>
+           
+        </div>
+          </div>
+
+
+
+        
+
+
+
+
+
+    
+
+        <footer class="border-t border-black py-12 dark:border-white font-Montserrat text-black dark:text-white ">
+          
+          <p class="ml-10 text-sm ">INSTAGRAM I FACEBOOK I LINKEDIN</p>
+        </footer>
+   
+    
+
+   
+
+   
+
+
+    
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
